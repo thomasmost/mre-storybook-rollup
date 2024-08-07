@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.demo {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.intro {
+  width: 50%;
+}
+
+.wrap {
+  width: 480px;
+  display: block;
+  border-radius: 20px;
+  background-color: white;
+  padding: 2rem;
+}

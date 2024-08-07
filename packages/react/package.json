@@ -1,0 +1,28 @@
+{
+  "name": "@myscope/react",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.5.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "^18.2.0",
+    "rollup": "^4.19.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tsconfig": "workspace:*"
+  }
+}
